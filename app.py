@@ -11,4 +11,4 @@ class WeatherApp(QWidget):
 
 
 if __name__ == "__main__":
-    app = QApplication
+    app = QApplication(sys.argv)
