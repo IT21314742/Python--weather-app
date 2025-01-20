@@ -10,4 +10,3 @@ class WeatherApp(QWidget):
         super().__init__()
 
 
-        
