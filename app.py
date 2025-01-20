@@ -6,3 +6,4 @@ from PyQt5.QtCore import Qt
 
 
 class WeatherApp(QWidget):
+    
