@@ -7,4 +7,4 @@ from PyQt5.QtCore import Qt
 
 class WeatherApp(QWidget):
     def __init__(self):
-        pass
+        
