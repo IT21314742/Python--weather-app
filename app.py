@@ -14,6 +14,7 @@ class WeatherApp(QWidget):
         self.temperature_label = QLabel()
 
 
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     weather_app = WeatherApp()
