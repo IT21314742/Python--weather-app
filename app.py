@@ -9,6 +9,7 @@ class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
         self.city_label = QLabel("Enter city Name: ", self)
+        self.city_input = QLineEdit
 
 
 if __name__ == "__main__":
