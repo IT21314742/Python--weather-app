@@ -8,6 +8,7 @@ from PyQt5.QtCore import Qt
 class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
+        self.city_label = QLabel("Enter city Name: ", self)
 
 
 if __name__ == "__main__":
@@ -16,4 +17,3 @@ if __name__ == "__main__":
     weather_app.show()
     sys.exit(app.exec_())
 
-    
