@@ -10,6 +10,7 @@ class WeatherApp(QWidget):
         super().__init__()
         self.city_label = QLabel("Enter city Name: ", self)
         self.city_input = QLineEdit(self)
+        self.get_weather_button = 
 
 
 if __name__ == "__main__":
