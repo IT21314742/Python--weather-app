@@ -13,7 +13,6 @@ class WeatherApp(QWidget):
         self.get_weather_button = QPushButton("Get Weather", self)
         self.temperature_label = QLabel()
 
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     weather_app = WeatherApp()
