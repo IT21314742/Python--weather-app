@@ -16,6 +16,7 @@ class WeatherApp(QWidget):
         self.description_label = QLabel("Sunny", self)
 
     def initUI(self):
+        
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
