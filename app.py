@@ -15,7 +15,7 @@ class WeatherApp(QWidget):
         self.emoji_label = QLabel(" ", self)
         self.description_label = QLabel("Sunny", self)
 
-    def
+    def 
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
