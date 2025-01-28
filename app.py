@@ -24,6 +24,7 @@ class WeatherApp(QWidget):
 
 
 
+
         
 
 
