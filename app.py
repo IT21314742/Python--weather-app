@@ -20,6 +20,7 @@ class WeatherApp(QWidget):
         pass
 
 
+
         
 
 
