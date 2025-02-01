@@ -18,6 +18,7 @@ class WeatherApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle("Weather App")
+
         
 
 if __name__ == "__main__":
