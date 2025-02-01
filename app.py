@@ -21,7 +21,7 @@ class WeatherApp(QWidget):
 
         vbox = QVBoxLayout()
 
-        
+        vbox.addWidget
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
