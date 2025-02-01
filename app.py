@@ -19,7 +19,7 @@ class WeatherApp(QWidget):
     def initUI(self):
         self.setWindowTitle("Weather App")
 
-        
+        vbox = QVBoxLayout
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
