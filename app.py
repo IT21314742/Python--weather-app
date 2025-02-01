@@ -27,6 +27,7 @@ class WeatherApp(QWidget):
         vbox.addWidget(self.temperature_label)   
         vbox.addWidget(self.emoji_label)   
         vbox.addWidget(self.description_label)
+        
            
 
 if __name__ == "__main__":
