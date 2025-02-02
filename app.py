@@ -30,7 +30,7 @@ class WeatherApp(QWidget):
 
         self.setLayout(vbox)
 
-        self.   
+        self.city_label   
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
