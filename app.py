@@ -34,6 +34,7 @@ class WeatherApp(QWidget):
         self.city_input.setAlignment(Qt.AlignCenter)
         self.get_weather_button.setAlignment(Qt.AlignCenter)
         self.temperature_label.setAlignment(Qt.AlignCenter)
+        self..setAlignment(Qt.AlignCenter)
 
 
 if __name__ == "__main__":
