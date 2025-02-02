@@ -31,7 +31,7 @@ class WeatherApp(QWidget):
         self.setLayout(vbox)
 
         self.city_label.setAlignment(Qt.AlignCenter)
-        self.city_label.setAlignment(Qt.AlignCenter)
+        self.city_input.setAlignment(Qt.AlignCenter)
 
 
 if __name__ == "__main__":
