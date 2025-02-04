@@ -35,6 +35,7 @@ class WeatherApp(QWidget):
         self.temperature_label.setAlignment(Qt.AlignCenter)
         self.emoji_label.setAlignment(Qt.AlignCenter)
         self.description_label.setAlignment(Qt.AlignCenter)
+        
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
