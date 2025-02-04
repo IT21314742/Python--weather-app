@@ -50,6 +50,7 @@ class WeatherApp(QWidget):
 
 
 
+
         
 
 
