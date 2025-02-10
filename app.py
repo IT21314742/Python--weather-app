@@ -37,7 +37,7 @@ class WeatherApp(QWidget):
         self.description_label.setAlignment(Qt.AlignCenter)
         
         self.setStyleSheet("""
-        
+            QLabel
         """)
 
 if __name__ == "__main__":
