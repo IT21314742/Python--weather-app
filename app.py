@@ -38,7 +38,7 @@ class WeatherApp(QWidget):
         
         self.setStyleSheet("""
             QLabel, QPushButton{
-            font-family: calibri}
+            font-family: calibri;}
         """)
 
 if __name__ == "__main__":
