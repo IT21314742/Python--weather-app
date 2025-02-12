@@ -51,7 +51,8 @@ class WeatherApp(QWidget):
                 font-size: 30px;
                 font-weight: bold;
             }
-            QLabel#temperature_label{}
+            QLabel#temperature_label{
+            }
 
         """)
 
