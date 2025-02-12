@@ -40,6 +40,9 @@ class WeatherApp(QWidget):
             QLabel, QPushButton{
             font-family: calibri;
             }
+            QLabel#city_label{
+                font-size: 40px;
+                }
         """)
 
 if __name__ == "__main__":
