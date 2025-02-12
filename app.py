@@ -49,7 +49,8 @@ class WeatherApp(QWidget):
             }
             QPushButton#get_weather_button{
                 font-size: 30px;
-                font-weight: bold;}
+                font-weight: bold;
+                }
 
         """)
 
