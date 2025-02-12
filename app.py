@@ -43,7 +43,9 @@ class WeatherApp(QWidget):
             QLabel#city_label{
                 font-size: 40px;
                 font-style:italic;
-                }
+            }
+            Qline
+
         """)
 
 if __name__ == "__main__":
