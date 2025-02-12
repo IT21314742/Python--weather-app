@@ -59,7 +59,7 @@ class WeatherApp(QWidget):
                 font-family: Segoe UI emoji;
             }
             QLabel#description_label{
-            }
+             }
 
         """)
 
