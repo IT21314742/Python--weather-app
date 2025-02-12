@@ -56,7 +56,7 @@ class WeatherApp(QWidget):
             }
             QLabel#emoji_label{
                 font-size: 100px;
-                font-family
+                font-family: Segoe UI emoji
             }
 
         """)
