@@ -44,7 +44,7 @@ class WeatherApp(QWidget):
                 font-size: 40px;
                 font-style:italic;
             }
-            Qline
+            QlineEdit#city_input
 
         """)
 
