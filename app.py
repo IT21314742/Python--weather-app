@@ -69,4 +69,3 @@ if __name__ == "__main__":
     weather_app.show()
     sys.exit(app.exec_())
 
-
