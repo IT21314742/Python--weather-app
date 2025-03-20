@@ -37,7 +37,8 @@ class WeatherApp(QWidget):
         self.description_label.setAlignment(Qt.AlignCenter)
         self.initUI()
 
-        
+        def (arg):
+            pass
         
         self.setStyleSheet("""
             QLabel, QPushButton{
