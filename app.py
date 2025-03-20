@@ -76,7 +76,7 @@ class WeatherApp(QWidget):
 
         """)
 
-        self.get_weather_button.clicked
+        self.get_weather_button.clicked.connect()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
