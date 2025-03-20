@@ -72,7 +72,8 @@ class WeatherApp(QWidget):
         self.get_weather_button.clicked.connect(self.get_weather)
         
      def get_weather(self):
-        print("You get the weather")
+        
+        api_key
 
     def display_error(self, message):
         pass
