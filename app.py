@@ -36,6 +36,7 @@ class WeatherApp(QWidget):
         self.emoji_label.setAlignment(Qt.AlignCenter)
         self.description_label.setAlignment(Qt.AlignCenter)
         
+        
         self.setStyleSheet("""
             QLabel, QPushButton{
             font-family: calibri;
