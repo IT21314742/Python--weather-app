@@ -40,14 +40,7 @@ class WeatherApp(QWidget):
         def initUI(self):
             pass
     
-    def get_weather(self):
-        pass
 
-    def display_error(self, message):
-        pass
-
-    def display_weather(self, data):
-        pass
         
         self.setStyleSheet("""
             QLabel, QPushButton{
@@ -77,6 +70,15 @@ class WeatherApp(QWidget):
         """)
 
         self.get_weather_button.clicked.connect(self.get_weather)
+        
+            def get_weather(self):
+        pass
+
+    def display_error(self, message):
+        pass
+
+    def display_weather(self, data):
+        pass
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
