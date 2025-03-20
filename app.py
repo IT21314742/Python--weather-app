@@ -46,7 +46,8 @@ class WeatherApp(QWidget):
     def display_error(self, message):
         pass
 
-    
+    def fname(arg):
+        pass
         
         self.setStyleSheet("""
             QLabel, QPushButton{
