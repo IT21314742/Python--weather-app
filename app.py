@@ -42,6 +42,8 @@ class WeatherApp(QWidget):
     
     def get_weather(self):
         pass
+
+    
         
         self.setStyleSheet("""
             QLabel, QPushButton{
