@@ -43,7 +43,7 @@ class WeatherApp(QWidget):
     def get_weather(self):
         pass
 
-    def display_error(self):
+    def display_error(self, message):
         pass
         
         self.setStyleSheet("""
