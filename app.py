@@ -76,7 +76,7 @@ class WeatherApp(QWidget):
 
         """)
 
-        self
+        self.get_weather
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
