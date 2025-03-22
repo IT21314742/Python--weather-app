@@ -74,6 +74,7 @@ class WeatherApp(QWidget):
      def get_weather(self):
         
         api_key = "4313efec223625fa7c2f00619a717307"
+        city = self.city_input.text()
 
     def display_error(self, message):
         pass
