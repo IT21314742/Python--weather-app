@@ -86,7 +86,7 @@ class WeatherApp(QWidget):
         pass
 
     def display_weather(self, data):
-        pass
+        print(data)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
