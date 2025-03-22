@@ -80,8 +80,8 @@ class WeatherApp(QWidget):
         response = requests.get(url)
         data = response.json()
         
-        if
-
+        if data["cod"] == 200:
+            
     def display_error(self, message):
         pass
 
