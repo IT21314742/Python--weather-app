@@ -79,6 +79,8 @@ class WeatherApp(QWidget):
         
         response = requests.get(url)
         data = response.json()
+        
+        if
 
     def display_error(self, message):
         pass
