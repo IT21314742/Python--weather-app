@@ -86,7 +86,7 @@ class WeatherApp(QWidget):
             self.display_weather(data)
 
     except requests.exceptions.HTTPError:
-        pass
+        print()
     except requests.exceptions.RequestException:
         pass
     def display_error(self, message):
