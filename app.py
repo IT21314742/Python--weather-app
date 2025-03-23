@@ -101,7 +101,7 @@ class WeatherApp(QWidget):
                 print("Bad request\nPlease check your input")
             case 503:
                 print("Bad request\nPlease check your input")
-            case 503:
+            case 504:
                 print("Bad request\nPlease check your input")
     except requests.exceptions.RequestException:
         pass
