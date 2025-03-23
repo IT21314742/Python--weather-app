@@ -84,6 +84,7 @@ class WeatherApp(QWidget):
         if data["cod"] == 200:
             self.display_weather(data)
 
+
     def display_error(self, message):
         pass
 
