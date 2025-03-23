@@ -89,13 +89,13 @@ class WeatherApp(QWidget):
         match response.status_code:
             case 400:
                 print("Bad request\nPlease check your input")
-            case 400:
+            case 401:
                 print("Bad request\nPlease check your input")
-            case 400:
+            case 402:
                 print("Bad request\nPlease check your input")
-            case 400:
+            case 403:
                 print("Bad request\nPlease check your input")
-            case 400:
+            case 404:
                 print("Bad request\nPlease check your input")
             case 400:
                 print("Bad request\nPlease check your input")
