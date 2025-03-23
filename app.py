@@ -95,7 +95,7 @@ class WeatherApp(QWidget):
                 print("Bad request\nPlease check your input")
             case 404:
                 print("Bad request\nPlease check your input")
-            case 404:
+            case 500:
                 print("Bad request\nPlease check your input")
             case 500:
                 print("Bad request\nPlease check your input")
