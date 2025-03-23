@@ -79,7 +79,7 @@ class WeatherApp(QWidget):
         
     try:
         response = requests.get(url)
-        response
+        response.raise_for_status
         data = response.json()
         
         if data["cod"] == 200:
