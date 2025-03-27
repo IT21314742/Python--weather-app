@@ -116,4 +116,3 @@ if __name__ == "__main__":
     weather_app = WeatherApp()
     weather_app.show()
     sys.exit(app.exec_())
-    
