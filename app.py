@@ -112,7 +112,6 @@ class WeatherApp(QWidget):
         pass
     except requests.exceptions.TooManyRedirects:
         pass
-
     except requests.exceptions.RequestException:
         pass
     def display_error(self, message):
