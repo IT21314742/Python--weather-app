@@ -98,7 +98,7 @@ class WeatherApp(QWidget):
             case 500:
                 print("Internal Server Error\nPlease try again later")
             case 502:
-                print("Bad request\nPlease check your input")
+                print("Bad Gateway\nInvalid response from the server")
             case 503:
                 print("Bad request\nPlease check your input")
             case 504:
