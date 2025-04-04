@@ -92,7 +92,7 @@ class WeatherApp(QWidget):
             case 401:
                 print("Unauthorized\nInvalid API Key")
             case 403:
-                print("Bad request\nPlease check your input")
+                print("Forbidden\nAccess is denied")
             case 404:
                 print("Bad request\nPlease check your input")
             case 500:
