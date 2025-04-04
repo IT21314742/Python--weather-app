@@ -96,7 +96,7 @@ class WeatherApp(QWidget):
             case 404:
                 print("Not Found\nCity not Found")
             case 500:
-                print("Bad request\nPlease check your input")
+                print("Internal Server Error\nPlease try again later")
             case 502:
                 print("Bad request\nPlease check your input")
             case 503:
