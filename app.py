@@ -85,7 +85,7 @@ class WeatherApp(QWidget):
         if data["cod"] == 200:
             self.display_weather(data)
 
-    except requests.exceptions.HTTPError:
+    except requests.exceptions.HTTPError as:
         match response.status_code:
             case 400:
                 print("Bad request\nPlease check your input")
@@ -103,6 +103,7 @@ class WeatherApp(QWidget):
                 print("Service Unavailable\nServer is down")
             case 504:
                 print("Gateway Timeout\nNo responce from the server")
+            case _:
                 
     except requests.exceptions.RequestException:
         pass
