@@ -112,7 +112,7 @@ class WeatherApp(QWidget):
         print("Timeout Error:\nThe request timed out")
     except requests.exceptions.TooManyRedirects:
         print("Too many Redirects:\nCheck the URL")
-    except requests.exceptions.RequestException:
+    except requests.exceptions.RequestException as req_error:
         pass
     def display_error(self, message):
         pass
