@@ -107,7 +107,7 @@ class WeatherApp(QWidget):
                 print(f"HTTP error occured\n{http_error}")
                 
     except requests.exceptions.ConnectionError:
-        print
+        print("Connection Error")
     except requests.exceptions.Timeout:
         pass
     except requests.exceptions.TooManyRedirects:
