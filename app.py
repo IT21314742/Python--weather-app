@@ -100,7 +100,7 @@ class WeatherApp(QWidget):
             case 502:
                 print("Bad Gateway\nInvalid response from the server")
             case 503:
-                print("Bad request\nPlease check your input")
+                print("Service Unavailable\nServer is down")
             case 504:
                 print("Bad request\nPlease check your input")
     except requests.exceptions.RequestException:
