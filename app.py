@@ -110,7 +110,8 @@ class WeatherApp(QWidget):
         pass
     except requests.exceptions.Timeout:
         pass
-    except requests.exceptions.ConnectionError
+    except requests.exceptions.ConnectionError:
+        
                 
     except requests.exceptions.RequestException:
         pass
