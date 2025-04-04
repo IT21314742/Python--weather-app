@@ -94,7 +94,7 @@ class WeatherApp(QWidget):
             case 403:
                 print("Forbidden\nAccess is denied")
             case 404:
-                print("Bad request\nPlease check your input")
+                print("Not Found\nCity not Found")
             case 500:
                 print("Bad request\nPlease check your input")
             case 502:
