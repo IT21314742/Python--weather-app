@@ -104,7 +104,7 @@ class WeatherApp(QWidget):
             case 504:
                 print("Gateway Timeout\nNo responce from the server")
             case _:
-                print(f"HTTP error occured\n{}")
+                print(f"HTTP error occured\n{http_error}")
                 
     except requests.exceptions.RequestException:
         pass
