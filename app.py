@@ -113,7 +113,7 @@ class WeatherApp(QWidget):
     except requests.exceptions.TooManyRedirects:
         print("Too many Redirects:\nCheck the URL")
     except requests.exceptions.RequestException as req_error:
-        
+        print
     def display_error(self, message):
         pass
 
