@@ -94,7 +94,7 @@ class WeatherApp(QWidget):
             case 403:
                 self.display_error("Forbidden\nAccess is denied")
             case 404:
-                print("Not Found\nCity not Found")
+                self.display_error("Not Found\nCity not Found")
             case 500:
                 print("Internal Server Error\nPlease try again later")
             case 502:
