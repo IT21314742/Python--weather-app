@@ -88,7 +88,7 @@ class WeatherApp(QWidget):
     except requests.exceptions.HTTPError as http_error:
         match response.status_code:
             case 400:
-                self.display_error("Bad request\nPlease check your input")
+                self.display_error("Bad request:\nPlease check your input")
             case 401:
                 self.display_error("Unauthorized\nInvalid API Key")
             case 403:
