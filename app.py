@@ -92,7 +92,7 @@ class WeatherApp(QWidget):
             case 401:
                 self.display_error("Unauthorized\nInvalid API Key")
             case 403:
-                print("Forbidden\nAccess is denied")
+                self.display_error("Forbidden\nAccess is denied")
             case 404:
                 print("Not Found\nCity not Found")
             case 500:
