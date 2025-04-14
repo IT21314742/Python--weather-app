@@ -124,7 +124,6 @@ class WeatherApp(QWidget):
         temperature_c = temperature_k - 273.15
         temperature_f = (temperature_k * 9/5) - 459.67
 
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     weather_app = WeatherApp()
