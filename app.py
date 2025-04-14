@@ -121,6 +121,7 @@ class WeatherApp(QWidget):
 
     def display_weather(self, data):
         temperature_k = data["main"]["temp"]
+        print(temperature_k)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
