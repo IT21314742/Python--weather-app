@@ -90,7 +90,7 @@ class WeatherApp(QWidget):
             case 400:
                 self.display_error("Bad request\nPlease check your input")
             case 401:
-                print("Unauthorized\nInvalid API Key")
+                self.display_error("Unauthorized\nInvalid API Key")
             case 403:
                 print("Forbidden\nAccess is denied")
             case 404:
