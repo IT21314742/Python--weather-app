@@ -96,7 +96,7 @@ class WeatherApp(QWidget):
             case 404:
                 self.display_error("Not Found:\nCity not Found")
             case 500:
-                self.display_error("Internal Server Error\nPlease try again later")
+                self.display_error("Internal Server Error:\nPlease try again later")
             case 502:
                 self.display_error("Bad Gateway\nInvalid response from the server")
             case 503:
