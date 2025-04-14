@@ -102,7 +102,7 @@ class WeatherApp(QWidget):
             case 503:
                 self.display_error("Service Unavailable\nServer is down")
             case 504:
-                print("Gateway Timeout\nNo responce from the server")
+                self.display_error("Gateway Timeout\nNo responce from the server")
             case _:
                 print(f"HTTP error occured\n{http_error}")
                 
