@@ -129,7 +129,7 @@ class WeatherApp(QWidget):
         self.temperature_label.setText(f"{temperature_f:.0f}°")
         self.description_label.setText(weather_description)
         
-    
+    @staticmethod
     def get_weather_emoji(weather_id):
         pass
 
