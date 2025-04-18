@@ -129,7 +129,7 @@ class WeatherApp(QWidget):
         self.temperature_label.setText(f"{temperature_f:.0f}°")
         self.description_label.setText(weather_description)
         
-        
+    
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
