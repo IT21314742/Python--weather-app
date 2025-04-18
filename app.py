@@ -137,6 +137,12 @@ class WeatherApp(QWidget):
             return "⛈"
         elif 300 <= weather_id <= 321:
             return "⛅"
+        elif 500 <= weather_id <= 531:
+            return "🌨"
+        elif 600 <= weather_id <= 622:
+            return "❄"
+        elif 701 <= weather_id <= 741:
+            return "🌫"
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
